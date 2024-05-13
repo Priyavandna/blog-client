@@ -39,10 +39,12 @@ const LoginButton = styled(Button)`
     color: #fff;
     height: 48px;
     border-radius: 2px;
+   
+
 `;
 
 const SignupButton = styled(Button)`
-    text-transform: none;
+     text-transform: none;
     background: #fff;
     color: #2874f0;
     height: 48px;
@@ -84,7 +86,7 @@ const Login = ({isUserAuthenticated}) => {
      const { setAccount } = useContext(DataContext);
 
     const imageURL = 'https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png';
-
+      
    
     
     
